@@ -17,12 +17,24 @@
 </head>
 <body>
     <section class="content">
-        <h1>Pokedex</h1>
+        <div>
+            <h1>Pokedex</h1>
+            <ul class="nav-bar">
+                <li class="generations"><button id="fourth" type="button">4º Gen</button></li>
+                <li class="generations"><button id="third" type="button">3º Gen</button></li>
+                <li class="generations"><button id="second" type="button">2º Gen</button></li>
+                <li class="generations"><button id="first" type="button">1º Gen</button></li>
+            </ul>
+        </div>
         <ol id="pokemonList" class="pokemons">  
         </ol>
+        <div id="div-button" class="pagination">
+            <button id="loadMoreButton" type="button">Carregar mais...</button>
+        </div>
     </section>
 </body>
 <footer>
+    <script src="assets/js/pokemon-model.js"></script>
     <script src="assets/js/poke-api.js"></script>
     <script src="assets/js/main.js"></script>
 </footer>

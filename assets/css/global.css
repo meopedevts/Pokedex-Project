@@ -3,14 +3,15 @@
     box-sizing: border-box;
 }
 
-.body {
-    background-color: #a1a3a7;
+body {
+    background-color: #ebeef1;
 }
 
 .content {
     padding: 1rem;
     background-color: white;
     height: 100vh;
+    box-shadow: 10px 5px 2rem grey
 }
 
 @media screen and (min-width: 1024px) {
@@ -24,7 +25,7 @@
 
 @media only screen and (min-width: 375px) {
     .pokemons {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
@@ -37,11 +38,5 @@
 @media only screen and (min-width: 1024px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
-
-@media only screen and (min-width: 1440px) {
-    .pokemons {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 }
